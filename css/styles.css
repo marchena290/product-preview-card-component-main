@@ -159,16 +159,15 @@ body {
     max-width: 600px;
 }
 
-@media (min-width:  600px) {
-    .product {
-        --content-padding: 1.5rem;
-        grid-template-columns: 1fr 1fr;
-    }
+@media (min-width: 600px) {
+  .product {
+    --content-padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
 .product-content{
-    border: 3px solid red;
     display: grid;
     gap: var(--content-spacing);
     padding: var(--content-padding);
